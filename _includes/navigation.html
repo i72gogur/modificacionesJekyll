@@ -1,8 +1,9 @@
 <nav>
-  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
-    Home
-  </a>
-  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
-    About
-  </a>
+	<p style="position: absolute; left: 21.4%;">Visita el resto de nuestras investigaciones:</p>
+	<p></p>
+	{% for post in site.posts%}
+		<div style="text-align: center;">
+		<a href={{post.url}}>{{post.title}}</a>
+		</div>
+	{% endfor %}
 </nav>

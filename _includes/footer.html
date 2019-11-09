@@ -6,6 +6,9 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+        {% if page.url == "/" %}
+          <a href="grupo.html" style="position: absolute; left: 21.4%; top: 86.8%;"> Conozca más acerca de nosotros </a>
+        {% endif %}
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>

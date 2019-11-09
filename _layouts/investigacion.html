@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <a href="/" style="position: absolute; left: 21.4%; top: 10%; color: black;"> HOME </a>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      {% include navigation.html %}
+    </div>    
+
+    {% if page.url == "/" %}
+      <a href="/Collaborators" style="position: absolute; left: 21.4%;"> Conozca más de nosotros </a>
+    {% endif %}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

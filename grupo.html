@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<!-- front matter above-->
+
+<div class="home">
+
+  <ul class="post-list">
+  {% for author in site.collaborators %}
+    <li>
+      <h2>{{ author.nombre }}</h2>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+  <a href="/" style="position: absolute; left: 21.4%; color: black;"> VOLVER A INVESTIGACIONES </a>
+</div>

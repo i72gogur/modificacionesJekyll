@@ -1,0 +1,6 @@
+---
+nombre: Rafael González Guerrero
+apodo: Rafael
+---
+
+Estudiante de Ingeniería informática de 3º curso de computadores, especializado en el juego del dominó y la conducción de vehiculos de 3 ruedas, en su tiempo libre mata moscas a cañonazos.
